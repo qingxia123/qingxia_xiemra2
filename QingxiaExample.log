@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.27)  27 JUL 2015 14:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.5.27)  27 JUL 2015 14:25
 entering extended mode
 **QingxiaExample.tex
 (C:\Users\Qingxia\Documents\GitHub\qingxia_xiemra2\QingxiaExample.tex
@@ -1027,106 +1027,88 @@ your preamble.
  on input line 16.
 
 \c@lstlisting=\count213
-LaTeX Font Info:    Try loading font information for U+msa on input line 20.
+
+Overfull \hbox (186.18494pt too wide) in paragraph at lines 23--24
+[] 
+ []
+
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 20.
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+)
+Overfull \hbox (4.06116pt too wide) in paragraph at lines 35--36
+[]$ [] [] [] [] [] [] []$\OT1/cmr/m/n/10 where $\OML/cmm/m/it/10 x$ \OT1/cmr/m/
+n/10 is the [] and $\OML/cmm/m/it/10 a$ \OT1/cmr/m/n/10 is the []. 
+ []
 
-]pdfTeX warning (ext4): destination with the same identifier (name{problemType.
-1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.90 I
-      n the plot below, is $P$ a function of $k$?pdfTeX warning (ext4): destina
-tion with the same identifier (name{problemType.2}) has been already used, dupl
-icate ignored
-<to be read again> 
-                   \relax 
-l.131 I
-       n the plot below, is $R$ a function of $n$? [2]pdfTeX warning (ext4): de
-stination with the same identifier (name{problem.4}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-l.171 I
-       n the plot below, is $b$ a function of $w$?pdfTeX warning (ext4): destin
-ation with the same identifier (name{problemType.3}) has been already used, dup
-licate ignored
-<to be read again> 
-                   \relax 
-l.171 I
-       n the plot below, is $b$ a function of $w$? [3pdfTeX warning (ext4): des
-tination with the same identifier (name{problem.4}) has been already used, dupl
-icate ignored
 
-\@EveryShipout@Output ...@Org@Shipout \box \@cclv 
-                                                  
-l.188 \end{image}
-                 ]pdfTeX warning (ext4): destination with the same identifier (
-name{problem.4}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.209 \end{shuffle}
-                    [4]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 220.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 220.
+Overfull \hbox (0.96732pt too wide) in paragraph at lines 53--54
+[]\OT1/cmr/bx/n/10 a.$ [] [] [] []$$\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 3\OML/cmm
+/m/it/10 y[]$   \OT1/cmr/bx/n/10 b.$ [] [] [] []$$\OMS/cmsy/m/n/10  \OT1/cmr/m/
+n/10 (2\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )[]$   \OT1/cmr/bx/n/10 c.$ [] [] [] [
+]$$\OT1/cmr/m/n/10 5\OML/cmm/m/it/10 x[]$   \OT1/cmr/bx/n/10 d.$ [] [] [] []$$\
+OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 7\OML/cmm/m/it/10 a \OT1/cmr/
+m/n/10 +$
+ []
+
+[1{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+] [2] [3] [4]
+Overfull \hbox (59.92645pt too wide) in paragraph at lines 181--182
+[]\OT1/cmr/bx/n/10 a.$ [] [] [] []$$\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10  \OT1/cmr
+/m/n/10 4\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )[]$  \OT1/cmr/bx/n/10 b.$ [] [] [] 
+[]$$\OT1/cmr/m/n/10 (5\OML/cmm/m/it/10 a[]\OT1/cmr/m/n/10 )[]$ \OT1/cmr/bx/n/10
+ c.$ [] [] [] []$$\OT1/cmr/m/n/10 (\OMS/cmsy/m/n/10  \OML/cmm/m/it/10 q[]r[]\OT
+1/cmr/m/n/10 )[]$ 
+ []
+
+
+Overfull \hbox (9.4131pt too wide) in paragraph at lines 185--186
+[] \OT1/cmr/bx/n/10 d.$ [] [] [] []$$\OMS/cmsy/m/n/10  \OT1/cmr/m/n/10 6(\OML/c
+mm/m/it/10 a[]b[]\OT1/cmr/m/n/10 )[]$  \OT1/cmr/bx/n/10 e.$ [] [] [] []$$\OT1/c
+mr/m/n/10 (7\OML/cmm/m/it/10 x[]y[]\OT1/cmr/m/n/10 )[]$ 
+ []
+
+[5] [6] [7]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 273.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 273.
 
 (C:\Users\Qingxia\Documents\GitHub\qingxia_xiemra2\QingxiaExample.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 220.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 220.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 273.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 273.
 Package rerunfilecheck Info: File `QingxiaExample.out' has not changed.
-(rerunfilecheck)             Checksum: 2E30FAAB67EB9FAC61A09C4BF616A4A5;57.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 220.
- )
-(\end occurred when \if on line 192 was incomplete)
-(\end occurred when \iftrue on line 192 was incomplete)
-(\end occurred when \if on line 152 was incomplete)
-(\end occurred when \iftrue on line 152 was incomplete)
-(\end occurred when \if on line 111 was incomplete)
-(\end occurred when \iftrue on line 111 was incomplete)
-(\end occurred when \if on line 76 was incomplete)
-(\end occurred when \iftrue on line 76 was incomplete)
-(\end occurred when \if on line 75 was incomplete)
-(\end occurred when \iftrue on line 75 was incomplete)
-(\end occurred when \if on line 74 was incomplete)
-(\end occurred when \iftrue on line 74 was incomplete)
-(\end occurred when \if on line 72 was incomplete)
-(\end occurred when \iftrue on line 72 was incomplete) 
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 273.
+ ) 
 Here is how much of TeX's memory you used:
- 32019 strings out of 493921
- 732344 string characters out of 3147276
- 933592 words of memory out of 3000000
- 34656 multiletter control sequences out of 15000+200000
- 14385 words of font info for 54 fonts, out of 3000000 for 9000
+ 31308 strings out of 493921
+ 713962 string characters out of 3147276
+ 894764 words of memory out of 3000000
+ 33981 multiletter control sequences out of 15000+200000
+ 11289 words of font info for 44 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 75i,10n,91p,743b,1988s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 
-2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmbxsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfo
-nts/cm/cmex10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi9.pfb
-><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9
-/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/public/amsfonts/cm/cmr9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmsl10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
-/cm/cmsl9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmslt
-t10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssbx10.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb><C:/Program Fil
-es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on QingxiaExample.pdf (4 pages, 231534 bytes).
+ 69i,10n,79p,743b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17
+.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl10.pfb><C:/Program F
+iles/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on QingxiaExample.pdf (7 pages, 157458 bytes).
 PDF statistics:
- 138 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 98 PDF objects out of 1000 (max. 8388607)
+ 8 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

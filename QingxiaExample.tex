@@ -10,210 +10,263 @@
 \outcome{Understand a first example of the Ximera style.}
 \outcome{Have a nice basic example to work from.}
 
-\title{Pythagorean Theorem}
+\title{Introduction to Real Numbers}
 
 
 \begin{document}
 \begin{abstract}
-This gives an example on how to find the hypotenuse in a right triangle. 
+This section covers the notes of real numbers. 
 \end{abstract}
-\maketitle
 
-To start we can have theorem environments:
+{\LARGE \textbf{1.4 Laws of Exponents and Scientific Notation}}
 
-\begin{theorem}
-Given a right triangle:
-\begin{image}
-\begin{tikzpicture}[geometryDiagrams]
-\coordinate (A) at (0,2);
-\coordinate (B) at (0,5);
-\coordinate (C) at (6.5,2);
-\tkzMarkRightAngle(C,A,B)
-\tkzDefMidPoint(A,B) \tkzGetPoint{a}
-\tkzDefMidPoint(A,C) \tkzGetPoint{b}
-\tkzDefMidPoint(B,C) \tkzGetPoint{c}
-\draw (A)--(B)--(C)--cycle;
-\tkzLabelPoints[above](c)
-\tkzLabelPoints[below](b)
-\tkzLabelPoints[left](a)
-\end{tikzpicture}
-\end{image}
-We have that:
-\[
-a^2 + b^2 = c^2
-\]
-\end{theorem}
+\noindent \rule{7.35in}{2pt}
 
-\begin{exercise}
-$3\times 2=$\answer{6}
-\end{exercise}
+\vspace{.2in}
 
+\noindent \begin{tabular}{|c|} \hline Definition\\ \hline \end{tabular} $~~$ For any real number $x$ and any positive integer $a$,
 
-\begin{exercise}
-Given that $r(v)=-2 v^2-4 v-4$, evaluate $r(-0.4)$. Express your answer in decimal notation.
-%\begin{solution}
-\begin{hint}
-$r(-0.4)=-2 (-0.4)^2-4 (-0.4)-4$.
-\end{hint}
-\begin{hint}
-$r(-0.4)=-2.72$.
-\end{hint}
+\begin{center} {\LARGE $\displaystyle x^a=$} \end{center}
 
-The value of the function $r(v)=-2 v^2-4 v-4$, evaluated at $v=-0.4$, is \answer{-2.72}.
-%\end{solution}
-\end{exercise}
+$~$
 
+$~$
 
+$~~~~~~~$where $x$ is the \rule{1in}{.5pt} and $a$ is the \rule{2in}{.5pt}.
 
-\begin{question}
-What is the worst kind of cat?
-\begin{prompt}
-\begin{multipleChoice}
-\choice{tabby}
-\choice[correct]{puppy}
-\choice{dog}
-\choice{kitten}
-\choice{main coon}
-\end{multipleChoice}
-\end{prompt}
-\begin{hint}
-It is not a cat or a type of cat.
-\end{hint}
-\begin{hint}
-It is a puppy!
-\end{hint}
-\end{question}
+$~$
 
+$~$
 
-\begin{shuffle}
-\begin{question}
-In the plot below, is $P$ a function of $k$?
-\begin{image}
-\begin{tikzpicture}
-\begin{axis}[
-            ymin=-5,
-			ymax=5,
-            axis lines =center, xlabel=$k$, ylabel=$P$,
-              every axis y label/.style={at=(current axis.above origin),anchor=south},
-              every axis x label/.style={at=(current axis.right of origin),anchor=west},
-            domain=-5:5,
-            grid = major,
-            xtick={-4,...,4},
-            ytick={-4,...,4},
-          ]
-          \addplot [very thick, smooth] {1 + (3.5 + x)*(-0.5714285714285714 + (-3.5 + x)*(0.16326530612244897 + (-0.3327149041434756 + (-0.20522334808049095 + 0.04019472590901159*(-3 + x))*(-2 + x))*x))};
-        \end{axis}
-\end{tikzpicture}
-\end{image}
-\begin{solution}
-\begin{multiple-choice}
-\choice[correct]{Yes.}
-\choice{No.}
-\end{multiple-choice}
-\begin{hint}
-For each input, how many outputs are there?
-\end{hint}
-\end{solution}
-Use the plot to compute $P(2)$.
-\begin{solution}
-\begin{hint}
-To start, find $2$ on the horizontal axis. 
-\end{hint}
-\begin{hint}
-Now from this position, move up or down until you reach the curve. The value of $P(2)$ is the height of the curve at the point $k=2$.
-\end{hint}
-The value of $P(2)$ is \answer{$2$}.
-\end{solution}
-\end{question}
+\noindent \underline{Exponent of 1}: For any real number $x$, $x^1=$
+
+$~$
+
+\noindent \underline{Exponent of 0}: For any non zero real number $x$, $x^0=$
+
+$~$
+
+\noindent Ex 1) Find the indicated value of the expression.
+
+$~$
+
+\textbf{a.}$~~~~$$\displaystyle -3y^1$ \hspace{.75in} \textbf{b.}$~~~~$$\displaystyle -(2x)^0$ \hspace{.75in} \textbf{c.}$~~~~$$\displaystyle 5x^0$ \hspace{.75in} \textbf{d.}$~~~~$$\displaystyle (-7a+b)^1$
+
+\vspace{1in}
+
+\begin{center} \begin{tabular}{|l|}
+\hline 
+\textbf{Product Rule of Exponents}\\
+\hline
+For any nonzero real number $x$ and for any positive integers $a$ and $b$\\
+$~$\\
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~${\Large$x^a\cdot x^b=~~~~$}\\
+$~$\\
+\hline
+\end{tabular} \end{center}
+
+\noindent Ex 2) Express in terms of a base raised to a single power if possible.
+
+$~$
+
+\textbf{a.}$~~~~$$\displaystyle n^3 \cdot n^7$\hspace{1in} \textbf{b.}$~~~~$$\displaystyle (-4x)^3 \cdot (-4x)$\hspace{1in}
+\textbf{c.}$~~~~$$\displaystyle (y+3)^5 \cdot (y+5)^0$\hspace{1in} \textbf{d.}$~~~~$$\displaystyle p^6 \cdot q^3$
+
+\vspace{.5in}
+
+\begin{center} \begin{tabular}{|l|}
+\hline 
+Quotient Rule of Exponents\\
+\hline
+For any nonzero real number $x$ and for any positive integers $a$ and $b$\\
+$~$\\
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~${\Large$\displaystyle \frac{x^a}{x^b}=~~~~$}\\
+$~$\\
+\hline
+\end{tabular} \end{center}
+
+\noindent Ex 3) Rewrite each expression as a base to a power if possible.
+
+$~$
+
+\textbf{a.}$~~~~$$\displaystyle \frac{s^8}{s^2}$\hspace{2in} \textbf{b.}$~~~~$$\displaystyle \frac{(-3r)^{10}}{(-3r)^9}$
+
+\vspace{.5in}
+
+\hspace{1in}\textbf{c.}$~~~~$$\displaystyle \frac{(t-2)^6}{(t-2)^4}  $\hspace{2in} \textbf{d.}$~~~~$$\displaystyle \frac{a^4}{b}$
 
 
-\begin{question}
-In the plot below, is $R$ a function of $n$?
-\begin{image}
-\begin{tikzpicture}
-\begin{axis}[
-            ymin=-5,
-			ymax=5,
-            axis lines =center, xlabel=$n$, ylabel=$R$,
-              every axis y label/.style={at=(current axis.above origin),anchor=south},
-              every axis x label/.style={at=(current axis.right of origin),anchor=west},
-            domain=-5:5,
-            grid = major,
-            xtick={-4,...,4},
-            ytick={-4,...,4},
-          ]
-          \addplot [very thick, smooth] {4 + (-0.42857142857142855 + (-0.05952380952380952 + (0.09163059163059163 + (-0.041447441447441453 - 0.08955488955488956*(-3 + x))*(-2 + x))*(-0.5 + x))*(-3.5 + x))*(3.5 + x)};
-        \end{axis}
-\end{tikzpicture}
-\end{image}
-\begin{solution}
-\begin{multiple-choice}
-\choice[correct]{Yes.}
-\choice{No.}
-\end{multiple-choice}
-\begin{hint}
-For each input, how many outputs are there?
-\end{hint}
-\end{solution}
-Use the plot to compute $R(3)$.
-\begin{solution}
-\begin{hint}
-To start, find $3$ on the horizontal axis. 
-\end{hint}
-\begin{hint}
-Now from this position, move up or down until you reach the curve. The value of $R(3)$ is the height of the curve at the point $n=3$.
-\end{hint}
-The value of $R(3)$ is \answer{$1$}.
-\end{solution}
-\end{question}
+\pagebreak
 
-\begin{question}
-In the plot below, is $b$ a function of $w$?
-\begin{image}
-\begin{tikzpicture}
-\begin{axis}[
-            ymin=-5,
-			ymax=5,
-            axis lines =center, xlabel=$w$, ylabel=$b$,
-              every axis y label/.style={at=(current axis.above origin),anchor=south},
-              every axis x label/.style={at=(current axis.right of origin),anchor=west},
-            domain=-5:5,
-            grid = major,
-            xtick={-4,...,4},
-            ytick={-4,...,4},
-          ]
-          \addplot [very thick, smooth] {2 + (3.5 + x)*(0.2857142857142857 + (-3.5 + x)*(0.489795918367347 + x*(0.34013605442176864 + (-0.5850340136054422 - 0.25117739403453676*(-0.5 + x))*(2 + x))))};
-        \end{axis}
-\end{tikzpicture}
-\end{image}
-\begin{solution}
-\begin{multiple-choice}
-\choice[correct]{Yes.}
-\choice{No.}
-\end{multiple-choice}
-\begin{hint}
-For each input, how many outputs are there?
-\end{hint}
-\end{solution}
-Use the plot to compute $b(-2)$.
-\begin{solution}
-\begin{hint}
-To start, find $-2$ on the horizontal axis. 
-\end{hint}
-\begin{hint}
-Now from this position, move up or down until you reach the curve. The value of $b(-2)$ is the height of the curve at the point $w=-2$.
-\end{hint}
-The value of $b(-2)$ is \answer{$4$}.
-\end{solution}
-\end{question}
-\end{shuffle}
+\begin{center} \begin{tabular}{|l|}
+\hline 
+Negative Exponents\\
+\hline
+For any nonzero real number $x$ and for any integer $a$\\
+$~$\\
+$~~~~~~~~~~~~~~~~~~~~~~~~~~${\Large$\displaystyle x^{-a} = $}\\
+$~$\\
+\hline
+\end{tabular} \end{center}
 
-\begin{question}
-Enter the matrix  \(\begin{bmatrix} x & y \\ xy & z+1 \end{bmatrix}\)
-\begin{matrixAnswer}[name=M]
-  correctMatrix = [['x','y'],['xy','z+1']]
-\end{matrixAnswer}
-\end{question}
+
+\noindent Ex 4) Rewrite with a positive exponent.
+
+$~$
+
+\textbf{a.}$~~~~$$\displaystyle a^{-9}$\hspace{1in} \textbf{b.}$~~~~$$\displaystyle (-4y)^{-1}$\hspace{1in}
+\textbf{c.}$~~~~$$\displaystyle (-5+x)^{-3}  $\hspace{1in} \textbf{d.}$~~~~$$\displaystyle \frac{1}{p^{-4}}$
+
+\vspace{1in}
+
+\begin{center} \begin{tabular}{|l|}
+\hline 
+Reciprocal of $x^{-a}$\\
+\hline
+For any nonzero real number $x$ and for any positive integer $a$\\
+$~$\\
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~${\Large$\displaystyle \frac{1}{x^{-a}} = $}\\
+$~$\\
+\hline
+\end{tabular} \end{center}
+
+\noindent Ex 5) Rewrite as expressions as using only positive exponents.
+
+$~$
+
+\textbf{a.}$~~~~$$\displaystyle \frac{1}{y^{-3}}$\hspace{2in} \textbf{b.}$~~~~$$\displaystyle \frac{5}{x^{-2}}$
+
+\vspace{.5in}
+
+\hspace{1in}\textbf{c.}$~~~~$$\displaystyle \frac{m}{n^{-3}}  $\hspace{2in} \textbf{d.}$~~~~$$\displaystyle \frac{4r^3}{s^{-3}}$
+
+\vspace{.5in}
+
+\begin{center} \begin{tabular}{|l|}
+\hline 
+Power Rule of Exponents\\
+\hline
+For any nonzero real number $x$ and for any integers $a$ and $b$\\
+$~$\\
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~${\Large$\displaystyle \left(x^a\right)^b=~~~~$}\\
+$~$\\
+\hline
+\end{tabular} \end{center}
+
+
+\noindent Ex 6) Simplify.
+
+$~$
+
+\textbf{a.}$~~~~$$\displaystyle (y^7)^2$\hspace{1.3in} \textbf{b.}$~~~~$$\displaystyle -(n^{-1})^5$\hspace{1.3in}
+\textbf{c.}$~~~~$$\displaystyle (p^{-3})^{-3} $ 
+
+\pagebreak
+
+\begin{center} \begin{tabular}{|l|}
+\hline 
+Raising a Product to a Power\\
+\hline
+For any nonzero real numbers $x$ and $y$ and any integer $a$\\
+$~$\\
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~${\Large$\displaystyle \left(xy\right)^a=~~~~$}\\
+$~$\\
+\hline
+\end{tabular} \end{center}
+
+\noindent Ex 7) Simplify.
+
+$~$
+
+\textbf{a.}$~~~~$$\displaystyle (-4x)^2$\hspace{1.75in} \textbf{b.}$~~~~$$\displaystyle (5a^9)^2$\hspace{1.75in}\textbf{c.}$~~~~$$\displaystyle (-q^7r^8)^2  $
+
+\vspace{.75in}
+
+\hspace{1in}\textbf{d.}$~~~~$$\displaystyle -6(a^5b^3)^3  $\hspace{2in} \textbf{e.}$~~~~$$\displaystyle (7x^{-4}y^{-1})^{-2}$
+
+\vspace{.5in}
+
+\begin{center} \begin{tabular}{|l|}
+\hline 
+Raising a Quotient to a Power\\
+\hline
+For any nonzero real numbers $x$ and $y$ and any integer $a$\\
+$~$\\
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~${\Large$\displaystyle \left(\frac{x}{y}\right)^a=~~~~$}\\
+$~$\\
+\hline
+\end{tabular} \end{center}
+
+\noindent Ex 8) Simplify.
+
+$~$
+
+\textbf{a.}$~~~~$$\displaystyle \left(\frac{y}{2}\right)^5 $\hspace{2in} \textbf{b.}$~~~~$$\displaystyle \left(\frac{u^4}{v^6}\right)^2$
+
+\vspace{1in}
+
+\hspace{1in}\textbf{c.}$~~~~$$\displaystyle \left(\frac{-5a^5}{2b^2}\right)^3  $\hspace{2in} \textbf{d.}$~~~~$$\displaystyle \left(\frac{v^6}{u^4}\right)^{-2}$
+
+\vspace{1in}
+
+\begin{center} \begin{tabular}{|l|}
+\hline 
+Raising a Quotient to a Negative Power\\
+\hline
+For any nonzero real numbers $x$ and $y$ and any integer $a$\\
+$~$\\
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~${\Large$\displaystyle \left(\frac{x}{y}\right)^{-a}=~~~~$}\\
+$~$\\
+\hline
+\end{tabular} \end{center}
+
+
+\noindent Ex 9) Simplify. $~~~~$$\displaystyle \left( \frac{3x^3}{2y^2}\right)^{-4}$
+
+\pagebreak
+
+
+\noindent \begin{tabular}{|l|}
+\hline 
+Definition\\
+\hline \end{tabular} A number is in \rule{3in}{.5pt} if it is written in the form
+
+{\Large $$a \times 10^n$$}
+
+where $n$ is an integer and $a$ is greater than or equal to 1 but less than 10 ($1\leq a < 10$)
+
+\vspace{.2in}
+
+\noindent \underline{Note}: With scientific notation, positive powers represent \rule{1in}{.5pt} numbers while negative powers represent \rule{1in}{.5pt} numbers.
+
+$~$
+
+\noindent \underline{Note}: When converting a number from scientific notation to standard notation, move the decimal point to the \rule{1in}{.5pt} if the power of 10 is \textit{positive} and to the \rule{1in}{.5pt} if the power of 10 is \textit{negative}.
+
+$~$
+
+\noindent Ex 10) Express in standard notation.
+
+$~$
+
+\textbf{a.} $~~~~$$\displaystyle 5.193 \times 10^8$ \hspace{2in} \textbf{b.}$~~~~$$\displaystyle 4.82 \times 10^{-7}$
+
+\vspace{.75in}
+
+\noindent Ex 11) Write each number in scientific notation.
+
+$~$
+
+\textbf{a.} $~~~~$$\displaystyle 4,000,000,000,000$ \hspace{2in} \textbf{b.}$~~~~$$\displaystyle 0.000000000067$
+
+\vspace{.75in}
+
+\noindent Ex 12) Carry out the computation.  Express the result in scientific notation.
+
+$~$
+
+\textbf{a.} $~~~~$$\displaystyle (4 \times 10^4)(7 \times 10^3)$ \hspace{2in} \textbf{b.}$~~~~$$\displaystyle (1.32 \times 10^4) \div (6 \times 10 ^{-4})$
+
 
 
 
